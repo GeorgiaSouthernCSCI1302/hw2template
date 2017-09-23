@@ -1,0 +1,15 @@
+language: java
+jdk:
+  - oraclejdk8
+
+before_install:
+  - cd A2
+  - sudo apt-get -qq update
+  # ant-optional is needed for ant junit
+  - sudo apt-get install ant-optional
+  
+script: 
+  - ant cleanall
+  - ant build
+  - ant A2AllTests
+  - ant junitreport
