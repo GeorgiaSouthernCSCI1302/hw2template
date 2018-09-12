@@ -1,5 +1,5 @@
 # hw2: All Athletes
-#Due: Friday September 29th 2017 11:59 pm. 
+#Due: Sunday 11:59 pm. 
 
                                     
 Implement the Athlete, Swimmer and Golfer classes shown in the A2_Diag.png UML diagram. 
