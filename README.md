@@ -34,5 +34,5 @@ The toStrig method returns a String in the form:
 
 The equals method returns true if the name and handicap of this golfer and compared other golfer are the same, otherwise return false 
 
-As usually, a set of JUnit test are provide to help with the testing of your code.
+
 
